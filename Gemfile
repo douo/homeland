@@ -47,7 +47,7 @@ gem 'rucaptcha'
 gem 'letter_avatar'
 
 # 用户系统
-gem 'devise', github: 'plataformatec/devise'
+gem 'devise'
 gem 'devise-encryptable'
 
 # 通知系统
@@ -96,8 +96,7 @@ gem 'sidekiq'
 gem 'social-share-button'
 
 # 表单
-gem 'simple_form', github: 'elsurudo/simple_form', branch: 'rails-5.1.0'
-# gem 'simple_form', github: 'plataformatec/simple_form'
+gem 'simple_form'
 
 # Mailer Service
 gem 'postmark'
