@@ -24,7 +24,7 @@ module Homeland
       end
 
       # Vimeo
-      if node['src'].match?(%r{\Ahttps://player\.vimeo\.com/video/})
+      if node["src"].match?(%r{\Ahttps://player\.vimeo\.com/video/})
         valid_video_url = true
       end
 
